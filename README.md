@@ -2,7 +2,7 @@
 
 # Planning 
 
-## Goal: 
+## Goal
 
 Inspired by Cloudy with a Chance of Meatballs, to launch a hamburger into the air and drop it at the apex of its flight. 
 
@@ -21,7 +21,7 @@ Inspired by Cloudy with a Chance of Meatballs, to launch a hamburger into the ai
 - Resources- It may be possible to source some resources, depending on which flight type is chosen but some, such as helium, may be harder to obtain. 
 - Weight- Anything that is going to fly (especially a balloon) has weight constraints. If our goal is to drop a hamburger, it may be too heavy. 
 
-## Brainstorming: 
+## Brainstorming 
 
 ### Links: 
 - [Wireless Rocket Launcher](https://learn.pi-supply.com/make/how-to-build-a-wireless-rocket-launcher-with-the-raspberry-pi-and-pijuice-hat/) 
@@ -55,12 +55,12 @@ Building a helium weather balloon that would ascend to a certain altitude, drop 
 - [Height, Pressure, and Temp Sensing with Raspberry Pi](https://www.instructables.com/Personal-Electronics-Altimeter-Using-Raspberry-Pi-/) 
 - [Balloon Performance Calculator](https://www.highaltitudescience.com/pages/balloon-performance-calculator)
 
-### Weight 
+### Weight:  
 - The average weight of a small Cookout hamburger is [82.5 grams](https://cookout.com/wp-content/uploads/2018/05/Nutrition_Website-1.pdf)
 - The weight of a Raspberry Pi 0 is about [9 grams](https://www.tomshardware.com/features/raspberry-pi-zero)
 - According to this [balloon selling website](https://www.scientificsonline.com/product/professional-weather-balloon-6555) a balloon of size 3 ft in diameter has a lift potential of about 113 g (1/4 lb), a balloon of size 8 ft diameter has a lift potential of about 283 g (10 oz) and a balloon of size 16 ft in diameter has a lift potential of about 1097 g (2.42 lb). 
 - If this website is correct, for our purposes it would make sense to select an 8 ft balloon to ensure that the weight limitations are flexible enough to allow us to add any neccessary equipment. 
 
-### Flight (Descent)
+### Flight (Descent): 
 
-### Dropping Mechanism (+ height sensor) 
+### Dropping Mechanism (+ height sensor):  
