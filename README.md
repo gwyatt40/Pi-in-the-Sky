@@ -63,7 +63,7 @@ Building a helium weather balloon that would ascend to a certain altitude, drop 
 - On most balloon websites, 8 ft weather balloons sell for about $30. [Website 1](https://www.scientificsales.com/8237-Weather-Balloon-300-Grams-Natural-p/8237.htm); [Website 2](https://www.scientificsonline.com/product/professional-weather-balloon-6555)
 
 ### Flight (Descent): 
-- Balloon will be filled with helium. Need about 268 cu ft of helium for an 8ft balloon accordi
+- Balloon will be filled with helium. Need about 250 cu ft of helium for an 8ft balloon according to according to [this website](http://balloonmagic.com/charts.php?ChartType=3). Other websites state that most rental tanks at party stores should have a capacity of about 250 cu ft, so we can rent a helium tank from Party City, hopefully for less than $50. 
 - After the balloon reaches a certain height (determined by height sensor) it will release helium to descend. 
 - Bob has a helium valve from a previous project that we will use to accomplish this. 
 - This valve will be controlled by a servo, which will start off closed (at a certain angle) and then turn to open the valve and allow helium to escape. 
@@ -75,10 +75,20 @@ Building a helium weather balloon that would ascend to a certain altitude, drop 
 - 8 ft weather balloon
 - Raspberry Pi 0
 - Helium valve
-- Helium 
+- Helium tank  
 - Height sensor
-- Servo
+- Servo(s)
+- Height sensor
+- Wires and other components (buttons, LEDs, etc) 
+- Battery 
 - Plastic CAD components for dropping mechanism
+
+## Risk Mitigation 
+- Flying the balloon in a wide, open field away from other people to minimize the risk of payload falling and injuring someone
+- Skewering the burger together so that it does not fall apart midflight
+- Dropping the burger at a fairly low height, in order to better ensure a safe drop and a safe baloon descent
+- Helium is a fairly inert gas so we will most likely not have to worry about flammability or toxicity, however it is still a chemical and should be handled with caution. Some party supply stores mix their helium with nitrogen, so we will inquire about this before hand, as nitrogen can cause the balloon to burst at a lower altitude. However, this will probably be a non-issue, since our balloon will not be reaching high altitudes. 
+- Safety protection measures such as safety goggles and gloves will be used when necessary.
 ## Schedule 
 
 Test this --bob
