@@ -63,7 +63,7 @@ Building a helium weather balloon that would ascend to a certain altitude, drop 
 - On most balloon websites, 8 ft weather balloons sell for about $30. [Website 1](https://www.scientificsales.com/8237-Weather-Balloon-300-Grams-Natural-p/8237.htm); [Website 2](https://www.scientificsonline.com/product/professional-weather-balloon-6555)
 
 ### Flight (Descent): 
-- Balloon will be filled with helium. How much helium and source? 
+- Balloon will be filled with helium. Need about 268 cu ft of helium for an 8ft balloon accordi
 - After the balloon reaches a certain height (determined by height sensor) it will release helium to descend. 
 - Bob has a helium valve from a previous project that we will use to accomplish this. 
 - This valve will be controlled by a servo, which will start off closed (at a certain angle) and then turn to open the valve and allow helium to escape. 
@@ -71,4 +71,14 @@ Building a helium weather balloon that would ascend to a certain altitude, drop 
 
 ### Dropping Mechanism (+ height sensor):  
 
-Test
+### Materials 
+- 8 ft weather balloon
+- Raspberry Pi 0
+- Helium valve
+- Helium 
+- Height sensor
+- Servo
+- Plastic CAD components for dropping mechanism
+## Schedule 
+
+
