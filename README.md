@@ -83,6 +83,7 @@ Building a helium weather balloon that would ascend to a certain altitude, drop 
 - Wires and other components (buttons, LEDs, etc) 
 - Battery 
 - Small Cookout hamburger
+- Plastic sheet for dropping mechanism 
 - Plastic CAD components for dropping mechanism
 
 ## Risk Mitigation 
