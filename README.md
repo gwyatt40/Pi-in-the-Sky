@@ -109,6 +109,7 @@ Building a helium weather balloon that would ascend to a certain altitude, drop 
 - May 6 - Source hamburger, first test flights (with helium and real burger) 
 - May 13- Final flight, complete documentation, PROJECT FINISHED 
 
+# Documentation 
 ## Progress Checks 
 
 ### Week 1 (Feb 11)
