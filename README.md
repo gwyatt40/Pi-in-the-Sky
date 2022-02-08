@@ -51,10 +51,16 @@ Building a helium weather balloon that would ascend to a certain altitude, drop 
 ## Design 
 
 ### Design Links: 
-- [Website to Buy Weather Balloons](https://www.scientificsales.com/Meteorological-Weather-Sounding-Balloon-s/25.htm)
+- Anything linked elsewhere in the design description is also linked here ++ extra resources
+- [Website 1 to Buy Weather Balloons](https://www.scientificsales.com/Meteorological-Weather-Sounding-Balloon-s/25.htm)
+- [Website 2 to Buy Weather Balloons](https://www.scientificsonline.com/product/professional-weather-balloon-6555)
 - [Weight info for Weather Balloons](https://stratostar.com/how-much-weight-can-a-high-altitude-weather-balloon-carry/)
+- [Weight info for Cookout Hamburgers](https://cookout.com/wp-content/uploads/2018/05/Nutrition_Website-1.pdf)
 - [Height, Pressure, and Temp Sensing with Raspberry Pi](https://www.instructables.com/Personal-Electronics-Altimeter-Using-Raspberry-Pi-/) 
+- [Where to Buy Height Sensor](https://www.adafruit.com/product/1893)
+- [Ballon Helium Lift Chart](http://balloonmagic.com/charts.php?ChartType=3)
 - [Balloon Performance Calculator](https://www.highaltitudescience.com/pages/balloon-performance-calculator)
+- [Basic Servo Control Code](https://tutorials-raspberrypi.com/raspberry-pi-servo-motor-control/)
 
 ### Weight:  
 - The average weight of a small Cookout hamburger is [82.5 grams](https://cookout.com/wp-content/uploads/2018/05/Nutrition_Website-1.pdf)
