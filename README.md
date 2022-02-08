@@ -64,7 +64,7 @@ Building a helium weather balloon that would ascend to a certain altitude, drop 
 
 ### Flight (Descent): 
 - Balloon will be filled with helium. Need about 250 cu ft of helium for an 8ft balloon according to according to [this website](http://balloonmagic.com/charts.php?ChartType=3). Other websites state that most rental tanks at party stores should have a capacity of about 250 cu ft, so we can rent a helium tank from Party City, hopefully for less than $50. 
-- The height of the balloon will be determined by a height sensor. Height sensors can be [bought online](https://www.adafruit.com/product/1893) for about $10 each. Here is a link to a [website with Raspberry Pi altitude sensor instructions](hhttps://www.instructables.com/Personal-Electronics-Altimeter-Using-Raspberry-Pi-/).
+- The height of the balloon will be determined by a height sensor. Height sensors can be [bought online](https://www.adafruit.com/product/1893) for about $10 each. Here is a link to a [website with Raspberry Pi altitude sensor instructions](https://www.instructables.com/Personal-Electronics-Altimeter-Using-Raspberry-Pi-/).
 - After the balloon reaches a certain height (determined by height sensor) it will release helium to descend. 
 - Bob has a helium valve from a previous project that we will use to accomplish this. 
 - This valve will be controlled by a servo, which will start off closed (at a certain angle) and then turn to open the valve and allow helium to escape. 
@@ -82,6 +82,7 @@ Building a helium weather balloon that would ascend to a certain altitude, drop 
 - Height sensor 
 - Wires and other components (buttons, LEDs, etc) 
 - Battery 
+- Small Cookout hamburger
 - Plastic CAD components for dropping mechanism
 
 ## Risk Mitigation 
@@ -100,10 +101,18 @@ Building a helium weather balloon that would ascend to a certain altitude, drop 
 - Mar 18- COntinue work on CAD mechanism (first prototype?), continue work on code (sensor code and valve code + dropping mechanism code) 
 - Mar 25- Test prototype of dropping mechanism with dropping mechanism code
 - Apr 1- Refine dropping mechanism prototype, refine and troubleshoot initial code
-- Apr 8- Test dropping mechanism version 2 with code, height sensor, and helium valve
-- Apr 15- Source helium for balloon, start testing balloon with helium valve (just air initially) 
-- Apr 22- SPRING BREAK ? 
+- Apr 8- SPRING BREAK  
+- Apr 15- Test dropping mechanism version 2 with code, height sensor, and helium valve
+- Apr 22- Source helium for balloon, start testing balloon with helium valve (just air initially) 
 - Apr 29 - Combine balloon (still air only), helium valve, dropping mechanism, and height sensor
-- May 6 - First test flights (with helium and real burger) 
+- May 6 - Source hamburger, first test flights (with helium and real burger) 
 - May 13- Final flight, complete documentation, PROJECT FINISHED 
 
+## Progress Checks 
+
+### Week 1 (Feb 11)
+
+#### Georgia 
+
+
+#### Bob 
