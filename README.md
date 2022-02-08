@@ -73,15 +73,44 @@ Building a helium weather balloon that would ascend to a certain altitude, drop 
 
 ### Dropping Mechanism (+ height sensor):  
 
+### Code 
+- This code will have to combine 3 main functions. Height sensing, valve control, and controlling the dropping mechanism. 
+- A basic height sensing code can be found [here](https://www.instructables.com/Personal-Electronics-Altimeter-Using-Raspberry-Pi-/)
+- A basic valve control (servo control) code can be found at [this link](https://tutorials-raspberrypi.com/raspberry-pi-servo-motor-control/) 
+- Since the dropping mechanism will be controlled by servos, a code similar to the one found at the link above can be used, with angles adjusted
+- Here is a very, incredibly basic mock up code, to demonstrate how the three parts of the code will work together: 
+
+<details>
+  <summary> Basic Mock up Code </summary>
+
+```
+set up libraries
+
+assign pins
+
+functions set up: 
+	drop.burger = servo.angle == X
+	valve.release = servo.angle = X
+	
+while true(): 
+	sense height 
+	print (height)
+	if height == drop height
+		drop.burger()
+		valve.release()
+   
+```
+</details>
+
 ### Materials 
 - 8 ft weather balloon
 - Raspberry Pi 0
 - Helium valve
 - Helium tank  
 - Height sensor
-- Servo(s
+- Servo(s)
 - Height sensor 
-- Wires and other components (buttons, LEDs, etc) 
+- Wires and other components (on/off buttons, LEDs, etc) 
 - Battery 
 - Small Cookout hamburger
 - Plastic sheet for dropping mechanism 
