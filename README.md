@@ -51,7 +51,7 @@ Building a helium weather balloon that would ascend to a certain altitude, drop 
 ## Design 
 
 ### Design Links: 
-- Anything linked elsewhere in the design description is also linked here ++ extra resources
+Anything linked elsewhere in the design description is also linked here ++ extra resources-
 - [Website 1 to Buy Weather Balloons](https://www.scientificsales.com/Meteorological-Weather-Sounding-Balloon-s/25.htm)
 - [Website 2 to Buy Weather Balloons](https://www.scientificsonline.com/product/professional-weather-balloon-6555)
 - [Weight info for Weather Balloons](https://stratostar.com/how-much-weight-can-a-high-altitude-weather-balloon-carry/)
