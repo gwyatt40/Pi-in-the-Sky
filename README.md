@@ -18,7 +18,8 @@ Inspired by Cloudy with a Chance of Meatballs, to launch a hamburger into the ai
 ### Constraints: 
 - Time- Time is the biggest constraint on the possibilities for this assignment
 - Safety- Safety must be taken into consideration, ex. Building something like a hot air balloon may not be possible. 
-- Resources- It may be possible to source some resources, depending on which flight type is chosen but some, such as helium, may be harder to obtain. 
+- Resources- It may be possible to source some resources, depending on which flight type is chosen but some, such as helium, may be harder to obtain.
+- Cost- Components for this project could be pricey, and we shpuld work to make sure that everything we use in our design is affordable  
 - Weight- Anything that is going to fly (especially a balloon) has weight constraints. If our goal is to drop a hamburger, it may be too heavy. 
 
 ## Brainstorming 
