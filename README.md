@@ -92,18 +92,18 @@ Building a helium weather balloon that would ascend to a certain altitude, drop 
 - Safety protection measures such as safety goggles and gloves will be used when necessary.
 ## Schedule 
 
-Feb 11- Complete planning/project proposal
-Feb 18- Source all components (order/buy/find), finalized design paper/pencil for CAD dropping mechanism, initial mock-up code
-Feb 25- Gather all components (expt. helium if need to rent), initial work on CAD dropping mechanism, complete wiring, initial work on code (valve close/open)
-Mar 4- Continue work on CAD mechanism, continue work on code (height sensor code)
-Mar 11- Continue work on CAD mechanism, continue work on code (combine sensor code and valve code) 
-Mar 18- COntinue work on CAD mechanism (first prototype?), continue work on code (sensor code and valve code + dropping mechanism code) 
-Mar 25- Test prototype of dropping mechanism with dropping mechanism code
-Apr 1- Refine dropping mechanism prototype, refine and troubleshoot initial code
-Apr 8- Test dropping mechanism version 2 with code, height sensor, and helium valve
-Apr 15- Source helium for balloon, start testing balloon with helium valve (just air initially) 
-Apr 22- SPRING BREAK ? 
-Apr 29 - Combine balloon (still air only), helium valve, dropping mechanism, and height sensor
-May 6 - First test flights (with helium and real burger) 
-May 13- Final flight, complete documentation, PROJECT FINISHED 
+- Feb 11- Complete planning/project proposal
+- Feb 18- Source all components (order/buy/find), finalized design paper/pencil for CAD dropping mechanism, initial mock-up code
+- Feb 25- Gather all components (expt. helium if need to rent), initial work on CAD dropping mechanism, complete wiring, initial work on code (valve close/open)
+- Mar 4- Continue work on CAD mechanism, continue work on code (height sensor code)
+- Mar 11- Continue work on CAD mechanism, continue work on code (combine sensor code and valve code) 
+- Mar 18- COntinue work on CAD mechanism (first prototype?), continue work on code (sensor code and valve code + dropping mechanism code) 
+- Mar 25- Test prototype of dropping mechanism with dropping mechanism code
+- Apr 1- Refine dropping mechanism prototype, refine and troubleshoot initial code
+- Apr 8- Test dropping mechanism version 2 with code, height sensor, and helium valve
+- Apr 15- Source helium for balloon, start testing balloon with helium valve (just air initially) 
+- Apr 22- SPRING BREAK ? 
+- Apr 29 - Combine balloon (still air only), helium valve, dropping mechanism, and height sensor
+- May 6 - First test flights (with helium and real burger) 
+- May 13- Final flight, complete documentation, PROJECT FINISHED 
 
