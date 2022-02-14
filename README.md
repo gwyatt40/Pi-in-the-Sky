@@ -78,6 +78,7 @@ Anything linked elsewhere in the design description is also linked here ++ extra
 - I created a very basic code for this servo control (need to upload to github) and here is a website for [servo control with a raspberry pi](https://tutorials-raspberrypi.com/raspberry-pi-servo-motor-control/) 
 
 ### Dropping Mechanism (+ height sensor):  
+Once the balloon has reached the correct height, we shall drop the burger. The “whopper dropper” (technical term) can either be like a trap door design or a claw of some sort.
 
 ### Code 
 - This code will have to combine 3 main functions. Height sensing, valve control, and controlling the dropping mechanism. 
@@ -151,6 +152,6 @@ while true():
 ### Week 1 (Feb 11)
 
 #### Georgia 
-
+This week I worked on brainstorming and completing the project plan. I created a schedule, materials list, risk mitigation write-up, and basic code layout. I also planned solutions for the issues of both flight and weight related to this project. 
 
 #### Bob 
