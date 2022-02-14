@@ -158,6 +158,6 @@ while true():
 ### Week 1 (Feb 11)
 
 #### Georgia 
-This week I worked on brainstorming and completing the project plan. I created a schedule, materials list, risk mitigation write-up, and basic code layout. I also planned solutions for the issues of both flight and weight related to this project. 
+This week I worked on brainstorming and completing the project plan. I created a schedule, materials list, risk mitigation write-up, and basic code layout. I also planned solutions for the issues of both flight and weight related to this project. Goals for next week: Order all necessary parts, fix Pi/github issues with the folder, start very basic servo control code. 
 
 #### Bob 
