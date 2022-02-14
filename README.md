@@ -78,7 +78,13 @@ Anything linked elsewhere in the design description is also linked here ++ extra
 - I created a very basic code for this servo control (need to upload to github) and here is a website for [servo control with a raspberry pi](https://tutorials-raspberrypi.com/raspberry-pi-servo-motor-control/) 
 
 ### Dropping Mechanism (+ height sensor):  
-Once the balloon has reached the correct height, we shall drop the burger. The “whopper dropper” (technical term) can either be like a trap door design or a claw of some sort.
+Once the balloon has reached the correct height, we shall drop the burger. The “whopper dropper” (technical term) can either be like a trap door design or a claw of some sort. The trap door design will involve a thin strip of clear plastic that will be wrapped around the burger and fastened with a 3d printed buckle. When the burger reaches the predetermined drop height, a mechanism (probably some form of servo) will unfasten the burger and it will fall to the ground. See the image fold out below for more design details. 
+<details>
+  <summary> Whopper Dropper Design </summary>
+
+<img src="https://github.com/gwyatt40/Pi-in-the-Sky/blob/main/Images/whopperdropper.png" alt="Whopper Dropper" width="600" height="800">
+
+</details>
 
 ### Code 
 - This code will have to combine 3 main functions. Height sensing, valve control, and controlling the dropping mechanism. 
@@ -136,7 +142,7 @@ while true():
 - Feb 25- Gather all components (expt. helium if need to rent), initial work on CAD dropping mechanism, complete wiring, initial work on code (valve close/open)
 - Mar 4- Continue work on CAD mechanism, continue work on code (height sensor code)
 - Mar 11- Continue work on CAD mechanism, continue work on code (combine sensor code and valve code) 
-- Mar 18- COntinue work on CAD mechanism (first prototype?), continue work on code (sensor code and valve code + dropping mechanism code) 
+- Mar 18- Continue work on CAD mechanism (first prototype?), continue work on code (sensor code and valve code + dropping mechanism code) 
 - Mar 25- Test prototype of dropping mechanism with dropping mechanism code
 - Apr 1- Refine dropping mechanism prototype, refine and troubleshoot initial code
 - Apr 8- SPRING BREAK  
