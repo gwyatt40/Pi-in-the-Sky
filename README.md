@@ -153,6 +153,10 @@ while true():
 - May 13- Final flight, complete documentation, PROJECT FINISHED 
 
 # Documentation 
+## Code
+#### Links
+[Servo Valve Code Site](https://core-electronics.com.au/tutorials/control-servo-raspberry-pi.html)
+
 ## Progress Checks 
 
 ### Week 1 (Feb 11)
