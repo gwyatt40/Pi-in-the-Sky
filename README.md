@@ -129,6 +129,12 @@ while true():
 - Plastic sheet for dropping mechanism 
 - Plastic CAD components for dropping mechanism
 
+### Shopping List 
+- 8 ft weather balloon
+- Height sensor
+- Hamburger
+- Helium 
+- 
 ## Risk Mitigation 
 - Flying the balloon in a wide, open field away from other people to minimize the risk of payload falling and injuring someone.
 - Skewering the burger together so that it does not fall apart midflight.
