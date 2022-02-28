@@ -192,6 +192,7 @@ I did not make it to class this week, so I did not progress.
 ### Week 4 (Feb 28)
 
 #### Georgia
+On Monday we brainstormed weather balloon alternatives and came up with a new, cheaper plan for launching our project. Instead of using one, expensive scientific quality weather baloon, we will use several smaller baloons (about 4 24 inch balloons). To allow the project to descend, we will use the same valve mechanism that we had initially planned, except it will only be attached to one of the balloons. When helium is relesased from one balloon, the project will begin to sink. We may have to adjust payload weight and the amount of helium in the balloons to achieve this, but hopefully this method will provide a more steady descent than using one large balloon.  
 
 #### Bob
 
