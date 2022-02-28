@@ -188,3 +188,10 @@ I was only able to attend one class this week, due to having Monday off and bein
 
 #### Bob
 I did not make it to class this week, so I did not progress. 
+
+### Week 4 (Feb 28)
+
+#### Georgia
+
+#### Bob
+
