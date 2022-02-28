@@ -171,6 +171,7 @@ while true():
 This week I worked on brainstorming and completing the project plan. I created a schedule, materials list, risk mitigation write-up, and basic code layout. I also planned solutions for the issues of both flight and weight related to this project. Goals for next week: Order all necessary parts, fix Pi/github issues with the folder, start very basic servo control code. 
 
 #### Bob 
+I helped Georgia with the project plan, letting her bounce ideas off me. 
 
 ### Week 2 (Feb 18) 
 
@@ -178,8 +179,12 @@ This week I worked on brainstorming and completing the project plan. I created a
 This week I worked on developing a basic servo control code. I was successful in creating a functioning code, but ran into some issues with the actual valve mechanism. The servo was not stromg enough to entirely close the valve. The valve operates by having a servo move a piece of plastic in order to open/close a piece of plastic tubing, however the tubing was to thick for the servo to close it entirely and air still escaped from the test balloon. I attempted to switch out the servo I was using in the valve for a potentially stronger one, but ended up accidentally cracking part of the valve's lasercut plastic cage. This can easily be fixed but, in the future, solutions will need to be found to allow the valve to fully close with a micro servo. 
 
 #### Bob 
+I started work on the "Whopper Dropper" Mechanism, coming up with a basic design and starting an onshape prototype.
 
 ### Week 3 (Feb 25)
 
 #### Georgia 
 I was only able to attend one class this week, due to having Monday off and being sick Tuesday. Because of this I ended up getting behind on my original plan of having ordered and sourced all the necessary parts by this week. I determined that the two parts we need to order at the moment are an altitude sensor, which is about $10 from adafruit, and a weather balloon, which I found can cost upwards of $40. Because of the high cost of weather balloons, I've been working to brainstorm alternatives, for example, using several smaller balloons. I will talk over this with Bob next class. 
+
+#### Bob
+I did not make it to class this week, so I did not progress. 
