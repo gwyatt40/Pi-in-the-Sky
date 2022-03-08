@@ -200,3 +200,4 @@ On Monday we brainstormed weather balloon alternatives and came up with a new, c
 
 #### Bob
 
+I started working on the Whopper dropper mechanism. I made a prototype to be fabricated.
