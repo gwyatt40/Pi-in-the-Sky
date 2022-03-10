@@ -205,4 +205,4 @@ I started working on the Whopper dropper mechanism. I made a prototype to be fab
 ### Week 5 (Mar 10) 
 
 #### Georgia
-This week I worked on combining the altimeter code and the servo valve code. The final combination of the two code is [linked here](https://github.com/gwyatt40/Pi-in-the-Sky/blob/main/Code/servovalve.py). Next week, I plan to add a second servo to this set up. After that, the code should be almost complete, with the exception of adjustments for specific servo angles and drop altitudes. 
+This week I worked on combining the altimeter code and the servo valve code. The final combination of the two code is [linked here](https://github.com/gwyatt40/Pi-in-the-Sky/blob/main/Code/servovalve.py). Next week, I plan to add a second servo to this set up. After that, the code should be almost complete, with the exception of adjustments for specific servo angles and drop altitudes. Bob also suggested the addition of a failsafe timer, to ensure that the balloon does not float away, I'll encorporate this into the code next week. I will also need to switch the raspberry pi over to a battery pack from a computer. 
