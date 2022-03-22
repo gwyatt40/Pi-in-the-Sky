@@ -210,6 +210,8 @@ I started working on the Whopper dropper mechanism. I made a prototype to be fab
 This week I worked on combining the altimeter code and the servo valve code. The final combination of the two code is [linked here](https://github.com/gwyatt40/Pi-in-the-Sky/blob/main/Code/servovalve.py). Next week, I plan to add a second servo to this set up. After that, the code should be almost complete, with the exception of adjustments for specific servo angles and drop altitudes. Bob also suggested the addition of a failsafe timer, to ensure that the balloon does not float away, I'll encorporate this into the code next week. I will also need to switch the raspberry pi over to a battery pack from a computer. 
 
 ### Week 6 (Mar 18) 
+
+#### Georgia
 This week I worked on adding a second servo to my setup, but I ran into errors with this because I could not find a second working PWM pin to connect the servo to. Additionally, when I did hook up two servos to my raspberry pi, it would only run code for a few seconds, before it stopped working. If two servos were connected, for some reason, I couldn't use ctrl+C or ctrl+Z to stop running code, so I had to close out of the program entirely. However, with just one servo, the code ran perfectly and I could use ctrl+c or ctrl+z to stop it. I think some of these issues may be due to the pi not having enough power from the computer to power two servos, so next week I will work to set up a battery for my pi, which I need to do anyway in order for the final setup to work detached from the computer.  
 
  
