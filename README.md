@@ -214,4 +214,11 @@ This week I worked on combining the altimeter code and the servo valve code. The
 #### Georgia
 This week I worked on adding a second servo to my setup, but I ran into errors with this because I could not find a second working PWM pin to connect the servo to. Additionally, when I did hook up two servos to my raspberry pi, it would only run code for a few seconds, before it stopped working. If two servos were connected, for some reason, I couldn't use ctrl+C or ctrl+Z to stop running code, so I had to close out of the program entirely. However, with just one servo, the code ran perfectly and I could use ctrl+c or ctrl+z to stop it. I think some of these issues may be due to the pi not having enough power from the computer to power two servos, so next week I will work to set up a battery for my pi, which I need to do anyway in order for the final setup to work detached from the computer.  
 
+### Week 7 (Mar 28) 
+
+#### Georgia 
+This week I added a battery to my setup so that I could run two servos from my raspberry pi. I was right that the problems I encountered last week were because my pi did not have enough power to run two servos, so adding the battery fixed this issue. I connected to ground and power wires of the servos to the battery directly. This setup did not work at first, and I couldn't figure out why until Mr. Miller suggested that I should connect the ground of the battery to the ground of the pi as well. I did this and my servos worked immediately, so thanks Mr. Miller! Next week I will work on adjusting specific angles for the servos and detaching the setup from the computer so that it can run independently.
+
+
+
  
