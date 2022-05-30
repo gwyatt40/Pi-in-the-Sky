@@ -214,11 +214,32 @@ This week I worked on combining the altimeter code and the servo valve code. The
 #### Georgia
 This week I worked on adding a second servo to my setup, but I ran into errors with this because I could not find a second working PWM pin to connect the servo to. Additionally, when I did hook up two servos to my raspberry pi, it would only run code for a few seconds, before it stopped working. If two servos were connected, for some reason, I couldn't use ctrl+C or ctrl+Z to stop running code, so I had to close out of the program entirely. However, with just one servo, the code ran perfectly and I could use ctrl+c or ctrl+z to stop it. I think some of these issues may be due to the pi not having enough power from the computer to power two servos, so next week I will work to set up a battery for my pi, which I need to do anyway in order for the final setup to work detached from the computer.  
 
-### Week 7 (Mar 28) 
+### Week 7 (Mar 25) 
 
 #### Georgia 
 This week I added a battery to my setup so that I could run two servos from my raspberry pi. I was right that the problems I encountered last week were because my pi did not have enough power to run two servos, so adding the battery fixed this issue. I connected to ground and power wires of the servos to the battery directly. This setup did not work at first, and I couldn't figure out why until Mr. Miller suggested that I should connect the ground of the battery to the ground of the pi as well. I did this and my servos worked immediately, so thanks Mr. Miller! Next week I will work on adjusting specific angles for the servos and detaching the setup from the computer so that it can run independently.
 
 
+### Weeks 8-12 
 
+Hiatus for Spring Break and Onshape work. No project progress. 
+
+### Week 13 (May 6) 
+
+#### Georgia 
+I was not in class for much of this week due to having morning AP exams, so I did not really get to do much work on thie project, besides going over the schedule. 
+
+### Week 14 (May 13) 
+
+#### Georgia 
+When I returned to continue working on this project, it took me some time to get reaqcquqintanced with the project, and to set everything up again. Once I did, I realized that the code I had finished in March was no longer functional. I spent the rest of the week troubleshooting this issue, mostly by checking code and wiring over and over.  
  
+### Week 15 (May 20)
+
+#### Georgia 
+This week I continued to work on troubleshooting the code. I eventually realized that the issue was with the battery being dead, probably because it had been plugged in for so long over break. I used a voltmeter to test several batteries before I found one that worked, and the code immediately started working again. I also found that the new battery allowed the servos to run more smoothly than they had with the old battery before it died.
+
+### Week 16 (May 27) 
+
+#### Georgia 
+This week I realized that we most likely were not going to be able to fully complete the project on time, and decided to focus on improving documentation in order to at least have a packaged final product, even if it was not complete. I worked on the read me documentation, commented the code, and made sure that everything ran smoothly and was as complete as it could be. 
