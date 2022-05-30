@@ -94,7 +94,7 @@ Once the balloon has reached the correct height, we shall drop the burger. The �
 - Here is a very, incredibly basic mock up code, to demonstrate how the three parts of the code will work together: 
 
 <details>
-  <summary> Basic Mock up Code </summary>
+  <summary> Basic Mock up Code ↓↓↓ </summary>
 
 ```
 set up libraries
@@ -158,14 +158,67 @@ while true():
 - May 6 - Source hamburger, first test flights (with helium and real burger) 
 - May 13- Final flight, complete documentation, PROJECT FINISHED 
 
-# Documentation 
-## Code
+# Documentation 	
+
 #### Links
 [Servo Valve Code Site](https://core-electronics.com.au/tutorials/control-servo-raspberry-pi.html)
 
 [MPL3115A2 Altimeter with Circuit Python](https://learn.adafruit.com/using-mpl3115a2-with-circuitpython/circuitpython)
 
 [Altimeter Wiring Image](https://github.com/gwyatt40/Pi-in-the-Sky/blob/main/Images/altimeterwiring.png)
+
+## Code
+[altimetervalve.py](https://github.com/gwyatt40/Pi-in-the-Sky/blob/main/Code/altimetervalve.py) 
+<details>
+  <summary> Final Code ↓↓↓ </summary>
+
+```
+import time # time libraries
+
+import board # board libraries 
+
+import adafruit_mpl3115a2 # altimeter libraries 
+
+from gpiozero import AngularServo # angular servo libraries 
+from time import sleep # sleep function libraries 
+
+i2c = board.I2C() # sets I2c transaction 
+
+sensor = adafruit_mpl3115a2.MPL3115A2(i2c)
+
+sensor.sealevel_pressure = 102250 # sets sea level pressure (for Charlottesville, VA) 
+
+servo1=AngularServo(18, min_angle=0, max_angle=180, min_pulse_width=0.0005, max_pulse_width=0.0025) # first servo, pin 18, controls valve
+
+servo2=AngularServo(13, min_angle=0, max_angle=270, min_pulse_width=0.0005, max_pulse_width=0.0025) # second servo, pin 13, controls drop
+                    
+while True:
+
+     altitude = sensor.altitude # reads sensor for altitude variable 
+
+     print("Altitude: {0:0.3f} meters".format(altitude)) # converts altitude to meters and prints 
+
+
+     if altitude > 104: # this value may change depending on the initial reading of the altimeter and the desired drop height 
+          servo1.angle =100
+          servo2.angle =100
+          print("100")
+          sleep(2)
+
+
+     if altitude < 104:
+          servo1.angle =160 # servo angles can be adjusted depending on project requirements 
+          servo2.angle =160
+          print ("160")
+          sleep(2)
+```
+</details>
+	
+### Wiring 
+Altimeter - SDA to SDA, SCL to SCL, VIN to 3V, GND to GND 
+Servo 1 - PIN to 13, VIN to BATTERY, GND to GND (battery)
+Servo 2 - PIN to 18, VIN to BATTERY, GND to GND (battery) 
+	
 
 ## Progress Checks 
 
@@ -243,3 +296,7 @@ This week I continued to work on troubleshooting the code. I eventually realized
 
 #### Georgia 
 This week I realized that we most likely were not going to be able to fully complete the project on time, and decided to focus on improving documentation in order to at least have a packaged final product, even if it was not complete. I worked on the read me documentation, commented the code, and made sure that everything ran smoothly and was as complete as it could be. 
+
+## Conclusion 
+
+We did not get to complete this project, largely due to lack of time. If we were to complete the project, the next step would be to simplify the wiring and to upload the code so that the Pi system is portable. After that, we could print out all of the finished CAD designs and begin to assemble everything. One issue that we may encounter here is with the valve design, the current plastic tubing used in the valve is too stiff for the servo to close it off completely, so we may need to redesign the valve or use weaker tubing. After assembly we would adjust the servo angles and drop altitude and could add a test balloon. Once tests with the non-helium test balloon were complete, we could add helium balloons and a drop object and start to test the final project. Overall, it would probably take us 3-4 more weeks to properly finish and document this project. This is especially true since we have yet to print out CAD designs, and these designs may not turn out well once printed. Additionally, I am not entirely sure how to upload code to a raspberry pi so that it can be detached from a coumputer and I would have to look up how to do that. Finally, getting the project to fly would be significantly difficult, especially if we made any miscalculations in planning about how much our payload would weigh, which is likely. Overall, at least on my part (Georgia) I would say that the biggest issue with our execution of this project was our time management. Personaly I underestimated the time it would take me to complete the code, and failed to account for the four week Onshape break in planning. Other than that, however I was proud of our plan a
